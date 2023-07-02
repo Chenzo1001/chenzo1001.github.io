@@ -1,8 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Tags - 标签 - Lucklyの博客 - 在阅读中遇见自己</title>
-        <link>https://luckly.work/tags/</link>
-        <description>Tags - 标签 - Lucklyの博客 - 在阅读中遇见自己</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>852851198@qq.com (早起的年轻人)</managingEditor>
-            <webMaster>852851198@qq.com (早起的年轻人)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://luckly.work/tags/" rel="self" type="application/rss+xml" /></channel>
+        <title>Tags - 标签 - CCY&#39;s Personal Blog</title>
+        <link>chenzo1001.github.io/tags/</link>
+        <description>Tags - 标签 - CCY&#39;s Personal Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>chenzo@whu.edu.cn (cyChen)</managingEditor>
+            <webMaster>chenzo@whu.edu.cn (cyChen)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 15 Mar 2023 20:20:56 &#43;0800</lastBuildDate><atom:link href="chenzo1001.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Notes</title>
+    <link>chenzo1001.github.io/tags/notes/</link>
+    <pubDate>Wed, 15 Mar 2023 20:20:56 &#43;0800</pubDate>
+    <author>cyChen</author>
+    <guid>chenzo1001.github.io/tags/notes/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>

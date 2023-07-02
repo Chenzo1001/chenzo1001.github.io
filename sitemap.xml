@@ -1,7 +1,16 @@
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml"
-    ><url>
-            <loc>https://luckly.work/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://luckly.work/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://luckly.work/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>chenzo1001.github.io/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>chenzo1001.github.io/zh-cn/sitemap.xml</loc>
+    
+      <lastmod>2023-03-23T23:19:55+08:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>
