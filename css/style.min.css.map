@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "/home/cyChen/cblog",
+	"sourceRoot": "/home/elliot/cblog",
 	"sources": [
 		"themes/cyChen/assets/css/style.scss",
 		"themes/cyChen/assets/lib/normalize/normalize.css",

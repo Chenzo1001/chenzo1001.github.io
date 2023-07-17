@@ -1,39 +1,39 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>所有文章 - CCY&#39;s Personal Blog</title>
-        <link>chenzo1001.github.io/posts/</link>
+        <link>119.36.242.187/posts/</link>
         <description>所有文章 | CCY&#39;s Personal Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>chenzo@whu.edu.cn (cyChen)</managingEditor>
-            <webMaster>chenzo@whu.edu.cn (cyChen)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 15 Mar 2023 20:20:56 &#43;0800</lastBuildDate><atom:link href="chenzo1001.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>chenzo@whu.edu.cn (cyChen)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 15 Mar 2023 20:20:56 &#43;0800</lastBuildDate><atom:link href="119.36.242.187/posts/" rel="self" type="application/rss+xml" /><item>
     <title>CMake Notes</title>
-    <link>chenzo1001.github.io/cmake/</link>
+    <link>119.36.242.187/cmake/</link>
     <pubDate>Wed, 15 Mar 2023 20:20:56 &#43;0800</pubDate>
     <author>cyChen</author>
-    <guid>chenzo1001.github.io/cmake/</guid>
+    <guid>119.36.242.187/cmake/</guid>
     <description><![CDATA[<p>CMake笔记</p>]]></description>
 </item>
 <item>
     <title>CPP Notes</title>
-    <link>chenzo1001.github.io/cpp/</link>
+    <link>119.36.242.187/cpp/</link>
     <pubDate>Wed, 15 Mar 2023 20:20:56 &#43;0800</pubDate>
     <author>cyChen</author>
-    <guid>chenzo1001.github.io/cpp/</guid>
+    <guid>119.36.242.187/cpp/</guid>
     <description><![CDATA[1.文件读写fstream fstream成员函数： 读取或写入指针设置函数void seekg(long position,ios::end/beg/cur)和vo]]></description>
 </item>
 <item>
     <title>Program Developing Notes</title>
-    <link>chenzo1001.github.io/%E5%BF%83%E5%BE%97/</link>
+    <link>119.36.242.187/%E5%BF%83%E5%BE%97/</link>
     <pubDate>Wed, 15 Mar 2023 20:20:56 &#43;0800</pubDate>
     <author>cyChen</author>
-    <guid>chenzo1001.github.io/%E5%BF%83%E5%BE%97/</guid>
+    <guid>119.36.242.187/%E5%BF%83%E5%BE%97/</guid>
     <description><![CDATA[1.AES加密开发笔记: 1.程序开发前: 在开发程序的时候一定要先在本子上画好框架，然后划分部分，每个部分需要实现什么样的功能。如果可以的话，]]></description>
 </item>
 <item>
     <title>SQL Notes</title>
-    <link>chenzo1001.github.io/sql/</link>
+    <link>119.36.242.187/sql/</link>
     <pubDate>Wed, 15 Mar 2023 20:20:56 &#43;0800</pubDate>
     <author>cyChen</author>
-    <guid>chenzo1001.github.io/sql/</guid>
+    <guid>119.36.242.187/sql/</guid>
     <description><![CDATA[1.SQL数据库的创建 2.SQL表格创建 1 2 3 4 5 CREATE TABLE XX( ID int not null, name varchar(50) not null ... ) 3.Qt链接SQL数据库 1.需要加入sql包]]></description>
 </item>
 </channel>
