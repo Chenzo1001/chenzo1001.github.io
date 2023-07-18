@@ -1,6 +1,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>CCY&#39;s Personal Blog</title>
+<<<<<<< HEAD
         <link>119.36.242.187/</link>
         <description>CCY&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>chenzo@whu.edu.cn (cyChen)</managingEditor>
@@ -12,30 +13,72 @@
     <pubDate>Wed, 15 Mar 2023 20:20:56 &#43;0800</pubDate>
     <author>cyChen</author>
     <guid>119.36.242.187/cmake/</guid>
+=======
+        <link>/</link>
+        <description>CCY&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>chenzo@whu.edu.cn (cyChen)</managingEditor>
+            <webMaster>chenzo@whu.edu.cn (cyChen)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 18 Jul 2023 09:43:41 &#43;0800</lastBuildDate>
+            <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>杨羚《基于多特征和图割模型的遥感影像云检测算法研究》笔记</title>
+    <link>/%E5%A4%9A%E7%89%B9%E5%BE%81%E8%9E%8D%E5%90%88%E5%92%8C%E5%9B%BE%E5%89%B2%E6%96%B9%E6%B3%95%E4%BA%91%E6%A3%80%E6%B5%8B/</link>
+    <pubDate>Tue, 18 Jul 2023 09:43:41 &#43;0800</pubDate>
+    <author>cyChen</author>
+    <guid>/%E5%A4%9A%E7%89%B9%E5%BE%81%E8%9E%8D%E5%90%88%E5%92%8C%E5%9B%BE%E5%89%B2%E6%96%B9%E6%B3%95%E4%BA%91%E6%A3%80%E6%B5%8B/</guid>
+    <description><![CDATA[思路 分类前处理 首先分析云层光谱特征，无论在高分影像上的哪个波段，云层的灰度值都比较高； 厚云很容易处理；对于薄云可以理解为在原来地物的基础上增]]></description>
+</item>
+<item>
+    <title>CMake Notes</title>
+    <link>/cmake/</link>
+    <pubDate>Wed, 15 Mar 2023 20:20:56 &#43;0800</pubDate>
+    <author>cyChen</author>
+    <guid>/cmake/</guid>
+>>>>>>> 65c67ba (New Posts:Cloud detection alogrithm, Yangling)
     <description><![CDATA[<p>CMake笔记</p>]]></description>
 </item>
 <item>
     <title>CPP Notes</title>
+<<<<<<< HEAD
     <link>119.36.242.187/cpp/</link>
     <pubDate>Wed, 15 Mar 2023 20:20:56 &#43;0800</pubDate>
     <author>cyChen</author>
     <guid>119.36.242.187/cpp/</guid>
+=======
+    <link>/cpp/</link>
+    <pubDate>Wed, 15 Mar 2023 20:20:56 &#43;0800</pubDate>
+    <author>cyChen</author>
+    <guid>/cpp/</guid>
+>>>>>>> 65c67ba (New Posts:Cloud detection alogrithm, Yangling)
     <description><![CDATA[1.文件读写fstream fstream成员函数： 读取或写入指针设置函数void seekg(long position,ios::end/beg/cur)和vo]]></description>
 </item>
 <item>
     <title>Program Developing Notes</title>
+<<<<<<< HEAD
     <link>119.36.242.187/%E5%BF%83%E5%BE%97/</link>
     <pubDate>Wed, 15 Mar 2023 20:20:56 &#43;0800</pubDate>
     <author>cyChen</author>
     <guid>119.36.242.187/%E5%BF%83%E5%BE%97/</guid>
+=======
+    <link>/%E5%BF%83%E5%BE%97/</link>
+    <pubDate>Wed, 15 Mar 2023 20:20:56 &#43;0800</pubDate>
+    <author>cyChen</author>
+    <guid>/%E5%BF%83%E5%BE%97/</guid>
+>>>>>>> 65c67ba (New Posts:Cloud detection alogrithm, Yangling)
     <description><![CDATA[1.AES加密开发笔记: 1.程序开发前: 在开发程序的时候一定要先在本子上画好框架，然后划分部分，每个部分需要实现什么样的功能。如果可以的话，]]></description>
 </item>
 <item>
     <title>SQL Notes</title>
+<<<<<<< HEAD
     <link>119.36.242.187/sql/</link>
     <pubDate>Wed, 15 Mar 2023 20:20:56 &#43;0800</pubDate>
     <author>cyChen</author>
     <guid>119.36.242.187/sql/</guid>
+=======
+    <link>/sql/</link>
+    <pubDate>Wed, 15 Mar 2023 20:20:56 &#43;0800</pubDate>
+    <author>cyChen</author>
+    <guid>/sql/</guid>
+>>>>>>> 65c67ba (New Posts:Cloud detection alogrithm, Yangling)
     <description><![CDATA[1.SQL数据库的创建 2.SQL表格创建 1 2 3 4 5 CREATE TABLE XX( ID int not null, name varchar(50) not null ... ) 3.Qt链接SQL数据库 1.需要加入sql包]]></description>
 </item>
 </channel>
