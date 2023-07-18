@@ -2,41 +2,6 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-<<<<<<< HEAD
-            <loc>119.36.242.187/</loc><lastmod>2023-03-23T23:19:55&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="119.36.242.187/en/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="119.36.242.187/"
-                    /></url><url>
-            <loc>119.36.242.187/cmake/</loc><lastmod>2023-03-23T23:19:55&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>119.36.242.187/cpp/</loc><lastmod>2023-03-15T20:20:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>119.36.242.187/tags/notes/</loc><lastmod>2023-03-23T23:19:55&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>119.36.242.187/posts/</loc><lastmod>2023-03-23T23:19:55&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>119.36.242.187/%E5%BF%83%E5%BE%97/</loc><lastmod>2023-03-15T20:20:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>119.36.242.187/sql/</loc><lastmod>2023-03-23T23:19:55&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>119.36.242.187/tags/</loc><lastmod>2023-03-23T23:19:55&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="119.36.242.187/en/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="119.36.242.187/tags/"
-                    /></url><url>
-            <loc>119.36.242.187/about/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>119.36.242.187/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="119.36.242.187/en/categories/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="119.36.242.187/categories/"
-=======
             <loc>/</loc><lastmod>2023-07-18T09:43:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -71,5 +36,4 @@
                     rel="alternate"
                     hreflang="zh-cn"
                     href="/categories/"
->>>>>>> 65c67ba (New Posts:Cloud detection alogrithm, Yangling)
                     /></url></urlset>

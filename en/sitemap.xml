@@ -2,34 +2,6 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-<<<<<<< HEAD
-            <loc>119.36.242.187/en/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="119.36.242.187/categories/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="119.36.242.187/en/categories/"
-                    /></url><url>
-            <loc>119.36.242.187/en/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="119.36.242.187/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="119.36.242.187/en/"
-                    /></url><url>
-            <loc>119.36.242.187/en/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="119.36.242.187/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="119.36.242.187/en/tags/"
-=======
             <loc>/en/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -56,5 +28,4 @@
                     rel="alternate"
                     hreflang="en"
                     href="/en/tags/"
->>>>>>> 65c67ba (New Posts:Cloud detection alogrithm, Yangling)
                     /></url></urlset>
