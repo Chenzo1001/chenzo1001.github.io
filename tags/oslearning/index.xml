@@ -6,18 +6,18 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>chenzo@whu.edu.cn (cyChen)</managingEditor>
             <webMaster>chenzo@whu.edu.cn (cyChen)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Aug 2023 00:50:16 &#43;0800</lastBuildDate><atom:link href="/tags/oslearning/" rel="self" type="application/rss+xml" /><item>
     <title>CPU调度</title>
-    <link>/os/sched/</link>
+    <link>/sched/</link>
     <pubDate>Sat, 12 Aug 2023 00:50:16 &#43;0800</pubDate>
     <author>cyChen</author>
-    <guid>/os/sched/</guid>
+    <guid>/sched/</guid>
     <description><![CDATA[CPU调度算法 CPU调度算法将一个任务的执行参数用四元数组表示：T(Q, P, E, D)。其中Q代表任务释放时间（Realease Time），P代表]]></description>
 </item>
 <item>
     <title>IO</title>
-    <link>/os/io/</link>
+    <link>/io/</link>
     <pubDate>Thu, 10 Aug 2023 15:57:04 &#43;0800</pubDate>
     <author>cyChen</author>
-    <guid>/os/io/</guid>
+    <guid>/io/</guid>
     <description><![CDATA[关于define的使用 1.在c中是没有inline的。我们可以用define来取代简单inline函数的地位。 1 #define Square(l) ((l)*(l)) 2.define一个常]]></description>
 </item>
 </channel>
