@@ -4,7 +4,15 @@
         <link>/tags/</link>
         <description>Tags - 标签 - CCY&#39;s Personal Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>chenzo@whu.edu.cn (cyChen)</managingEditor>
-            <webMaster>chenzo@whu.edu.cn (cyChen)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 18 Jul 2023 09:43:41 &#43;0800</lastBuildDate><atom:link href="/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>chenzo@whu.edu.cn (cyChen)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Aug 2023 00:50:16 &#43;0800</lastBuildDate><atom:link href="/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>OSLearning</title>
+    <link>/tags/oslearning/</link>
+    <pubDate>Sat, 12 Aug 2023 00:50:16 &#43;0800</pubDate>
+    <author>cyChen</author>
+    <guid>/tags/oslearning/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>SIDT AILab</title>
     <link>/tags/sidt-ailab/</link>
     <pubDate>Tue, 18 Jul 2023 09:43:41 &#43;0800</pubDate>
