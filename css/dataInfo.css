@@ -1,0 +1,48 @@
+.data-info {
+    padding: 5px;
+    width: 150px;
+    background-color: #fff;
+    color: #333;
+    font-size: 13px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 12%);
+}
+
+.data-info-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.data-detail-info {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    padding: 5px;
+    background-color: #fff; 
+    /* 限制最大高度，免得数据太多影响整个页面 */
+    max-height: 200px;
+    overflow: auto;
+    color: #333;
+    font-size: 13px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 12%);
+}
+
+#data-detail-info-table thead,
+#table tr {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(235, 242, 224);
+}
+
+#data-detail-info-table td,
+#table th {
+    padding: 5px 10px;
+    font-size: 12px;
+    font-family: Verdana;
+    /* color: rgb(149, 170, 109); */
+}
+
+#data-detail-info-table tr:nth-child(even) {
+    background: rgba(68, 180, 249, 0.3)
+}

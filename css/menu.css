@@ -1,0 +1,20 @@
+.menu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #fff;
+    border-radius: 1px;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 40%);
+}
+
+.menu-item {
+    width: 150px;
+    height: 23px;
+    text-indent: 1em;
+    line-height: 23px;
+}
+
+.menu-item:hover {
+    color: #fff;
+    background-color: #25a5f7;
+}

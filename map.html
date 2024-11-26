@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>世界桥梁赏析</title>
+    <link rel="stylesheet" href="./css/basic.css" />
+    <link rel="stylesheet" href="./css/dataInfo.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <!-- 设置高德地图 JS API 安全密钥 -->
+    <script type="text/javascript">
+        window._AMapSecurityConfig = {
+            securityJsCode: '7ab4d2d2a6f3e7b899bb8980ccab0e90',
+        }
+    </script>
+    <script type="text/javascript"
+        src="https://webapi.amap.com/maps?v=2.0&key=3c48e675a39edd695523cd3630d40c49&plugin=AMap.MouseTool,AMap.Driving,AMap.Transfer,AMap.Walking,AMap.Scale,AMap.ToolBar"></script>
+    <script src="https://webapi.amap.com/loca?v=2.0.0&key=3c48e675a39edd695523cd3630d40c49"></script>
+    <script src="http://webapi.amap.com/ui/1.1/main.js?v=1.1.1"></script>
+    <script src="./resource/data/dataGeoJson.js"></script>
+    <script src="./resource/data/dataDetail.js"></script>
+</head>
+
+<body>
+    <div id="container"></div>
+    <h3 id="title">世界桥梁赏析
+    </h3>
+    <div class="sidebar">
+        <div class="tools-button" id="navigationTools_button" title="路线规划导航"></div>
+        <div class="tools-button" id="drawTools_button" title="绘图工具"></div>
+        <div class="tools-button" id="measureTools_button" title="测量工具"></div>
+    </div>
+    <div class="input-card">
+        <div class="input-item measureTools">
+            <div class="function-name">选择测量方式:</div>
+            <input type="radio" name="mouseTools" value="rule"><span class="input-text">距离测量</span>
+            <input type="radio" name="mouseTools" value="measureArea"><span class="input-text">面积测量</span>
+        </div>
+        <div class="input-item measureTools">
+            <input id="close-measure" type="button" class="btn" value="关闭" />
+        </div>
+        <div class="input-item drawTools">
+            <div class="function-name">选择绘图方式:</div>
+            <input type="radio" name="mouseTools" value="marker"><span class="input-text">点</span>
+            <input type="radio" name="mouseTools" value="polyline"><span class="input-text">折线</span>
+            <input type="radio" name="mouseTools" value="polygon"><span class="input-text">多边形</span>
+        </div>
+        <div class="input-item drawTools">
+            <input type="radio" name="mouseTools" value="rectangle"><span class="input-text">矩形</span>
+            <input type="radio" name="mouseTools" value="circle"><span class="input-text">圆</span>
+        </div>
+        <div class="input-item drawTools">
+            <input id="clear-draw" type="button" class="btn" value="清除上一个" />
+            <input id="clear-all-draw" type="button" class="btn" value="清空" />
+            <input id="close-draw" type="button" class="btn" value="结束绘制" />
+        </div>
+
+        <div class="input-item navigationTools">
+            <div class="function-name">选择出行方式:</div>
+            <input type="radio" name="navigationType" checked="" value="driving"><span class="input-text">驾车</span>
+            <input type="radio" name="navigationType" value="transfer"><span class="input-text">公交</span>
+            <input type="radio" name="navigationType" value="walking"><span class="input-text">步行</span>
+
+            <div class="function-name">路线最先考虑:</div>
+            <input type="radio" name="functionType" checked="" value="0"><span class="input-text">时间最短</span>
+            <input type="radio" name="functionType" value="1"><span class="input-text">花费最少</span>
+            <input type="radio" name="functionType" value="2"><span class="input-text">距离最短</span>
+            <input type="radio" name="functionType" value="3"><span class="input-text">实时路况</span>
+
+            <div class="function-name">输入地点:</div>
+
+            <ul class="input-list">
+                <li>
+                    <div class="nav-text">起</div>
+                    <input type="text" id="startName" placeholder="请输入起点" class="input-search" />
+                </li>
+                <li>
+                    <div class="nav-text">终</div>
+                    <input type="text" id="endName" placeholder="请输入终点" class="input-search" />
+                </li>
+                <li>
+                    <div id="navigation_button_start" class="btn">开始规划导航</div>
+                    <div id="navigation_button_close" class="btn">关闭</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="nav-info" class="navigationTools"></div>
+
+    <div class="searchTools">
+        <input type="text" id="search_input" placeholder="搜索地点" />
+        <div id="search" class="searchTools-func" title="点击搜索">S</div>
+        <div id="search-info-close" class="searchTools-func" title="清除结果">X</div>
+        <div id="search-info" class="searchTools-info"></div>
+    </div>
+
+    <div id="menu" class="menu">
+        <div id="menu-nav-start" class="menu-item">从这里出发</div>
+        <div id="menu-nav-end">class="menu-item">到这里去</div>
+    </div>
+
+
+    <div id="data-detail-info" class="data-detail-info"></div>
+
+    <script src="./js/basicControl.js"></script>
+    <script src="./js/mouseTools.js"></script>
+    <script src="./js/navigationTools.js"></script>
+    <script src="./js/searchTools.js"></script>
+    <script src="./js/menuTools.js"></script>
+    <script src="./js/dataControl.js"></script>
+    <script src="./js/animate.js"></script>
+    <script src="./js/dataDetailControl.js"></script>
+    <script src="./js/AMapUIControl.js"></script>
+</body>
+
+</html>

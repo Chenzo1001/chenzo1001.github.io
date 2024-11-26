@@ -1,0 +1,196 @@
+html,
+body,
+#container {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-size: 13px;
+}
+
+#title {
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(22, 67, 94, 0.7);
+    border-radius: 5px;
+    box-shadow: 0 4px 5px rgba(102, 79, 177, 0.4);
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul>li {
+    margin: 5px;
+    list-style-type: none;
+}
+
+.sidebar {
+    position: absolute;
+    bottom: 105px;
+    left: 25px;
+}
+
+.tools-button {
+    margin: 5px;
+    width: 34px;
+    height: 34px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 40%);
+}
+
+.function-name {
+    margin: 5px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #25A5F7;
+}
+
+
+#navigationTools_button {
+    background: #fff url("../resource/img/navigation_icon.png") no-repeat center;
+    background-size: 70% 70%;
+}
+
+#drawTools_button {
+    background: #fff url("../resource/img/draw_icon.png") no-repeat center;
+    background-size: 70% 70%;
+}
+
+#measureTools_button {
+    background: #fff url("../resource/img/measure_icon.png") no-repeat center;
+    background-size: 70% 70%;
+}
+
+.input-card {
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 40%);
+}
+
+.input-text {
+    display: inline-block;
+    width: 55px;
+    height: 20px;
+}
+
+.btn {
+    margin: 5px;
+    width: 80px;
+    text-align: center;
+    color: #25A5F7;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-color: #25A5F7;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #25A5F7;
+}
+
+.input-search {
+    width: 240px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #99c1da;
+}
+
+.nav-text {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    background-color: #25A5F7;
+}
+
+#navigation_button_start,
+#navigation_button_close {
+    display: inline-block;
+    margin-left: 40px;
+    width: 94px;
+    height: 30px;
+    line-height: 30px;
+}
+
+#nav-info {
+    position: fixed;
+    background-color: white;
+    max-height: 90%;
+    overflow-y: auto;
+    top: 54px;
+    right: 15px;
+    width: 288px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 12%);
+    z-index: 20;
+}
+
+#nav-info .amap-call {
+    background-color: #009cf9;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#nav-info .amap-lib-driving {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow: hidden;
+}
+
+.searchTools {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+#search-info {
+    margin-top: 3px;
+    width: 288px;
+    background-color: white;
+    max-height: 90%;
+    overflow-y: auto;
+}
+
+#search_input {
+    width: 280px;
+    height: 30px;
+    line-height: 30px;
+    border: 2px solid #25A5F7;
+    outline: none;
+}
+
+.searchTools-func {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    width: 25px;
+    text-align: center;
+    color: #25a5f7;
+    font-size: large;
+    font-weight: 700;
+}
+
+.searchTools-func:hover {
+    color: #333;
+}
+
+#search-info-close {
+    right: 30px;
+    font-weight: 200;
+}
