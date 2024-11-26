@@ -124,6 +124,17 @@ var pl = window.pl = new Loca.PolygonLayer({
     depth: true,
 });
 
+var tileLayerUrl = 'https://a.tile.openstreetmap.org/{z}/{x}/{y}.png';  // 这里需要替换为实际的影像图层瓦片URL
+
+// 创建自定义瓦片图层
+var customTileLayer = new AMap.TileLayer({
+    getTileUrl: function (x, y, z) {
+        return tileLayerUrl.replace('{x}', x).replace('{y}', y).replace('{z}', z);
+    },
+    tileSize: 256,  // 瓦片大小
+    zooms: [0, 19], // 支持的缩放级别，0为全球，19为最大缩放
+});
+
 // map.on('complete', function () {
 //     loca.animate.start();
 //     setTimeout(animate, 2000);
