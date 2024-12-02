@@ -75,10 +75,9 @@ AMapUI.loadUI(["control/BasicControl"], function (BasicControl) {
                 layer: new AMap.TileLayer(),
             },
             {
-                enable: true,
                 id: "satellite",
                 name: "卫星图",
-                layer: customTileLayer
+                layer: new AMap.TileLayer.Satellite(),
             },
             {
                 id: "traffic",
