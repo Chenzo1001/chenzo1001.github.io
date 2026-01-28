@@ -1,116 +1,80 @@
-schema: hugoblox/author/v1
-slug: me
+schema: "hugoblox/author/v1"
+slug: "me"
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  display: "Canyu Chen"
+  given: "Canyu"
+  family: "Chen"
+  alternate: "陈灿宇"
+  pronunciation: "Tsanyu Chen"
+  pronouns: "he/him"
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
-bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
-
+  icon: "👨‍💻"
+role: "Student"
+bio: "A WHU RS/CS student."
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
-
+  - name: "Meta AI"
+    url: "https://ai.meta.com/"
 links:
-  - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
-
+  - icon: "hero/at-symbol"
+    url: "mailto:chenzo@whu.edu.cn"
+    label: "Email"
+  - icon: "brands/x"
+    url: "https://x.com/chenzo1001"
+  - icon: "brands/github"
+    url: "https://github.com/Chenzo1001"
+  - icon: "academicons/google-scholar"
+    url: "https://scholar.google.com/citations?user=bthivF8AAAAJ"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0009-0005-7098-832X"
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
-
+  - "Remote Sensing"
+  - "Low-Altitude Economics"
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
-
+  - degree: "B.S. in Spatial Information and Digital Technology"
+    institution: "Wuhan University"
+    start: "2022"
+    end: "2026"
+    summary: ""
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
+  - role: "Google Summer of Code"
+    org: "Google"
+    start: "2025-4"
+    end: "2025-9"
+    summary: ""
 skills:
-  - name: Technical Skills
+  - name: "Technical Skills"
     items:
-      - label: Python
+      - label: "Python"
         level: 5
-      - label: Machine Learning
+      - label: "Machine Learning"
         level: 5
-      - label: Cloud Computing
+      - label: "Cloud Computing"
         level: 4
-  - name: Research & Communication
+      - label: "C++"
+        level: 4
+  - name: "Research & Communication"
     items:
-      - label: Academic Writing
+      - label: "Academic Writing"
         level: 5
-      - label: Conference Presentations
+      - label: "Conference Presentations"
         level: 4
-      - label: Grant Proposals
-        level: 4
-
 languages:
-  - name: English
+  - name: "Chinese"
     level: 5
-    label: Native
-  - name: Spanish
+    label: "Native"
+  - name: "English"
     level: 4
-    label: Fluent
-
+    label: "B2"
+  - name: "French"
+    level: 1
+    label: "A2"
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
+  - title: "Best Paper Award"
+    awarder: "NeurIPS"
     date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+    summary: "Awarded for groundbreaking work on efficient training of large models."
+    icon: "hero/trophy"
+ids:
+  orcid: "0009-0005-7098-832X"
+  google_scholar: "bthivF8AAAAJ"
