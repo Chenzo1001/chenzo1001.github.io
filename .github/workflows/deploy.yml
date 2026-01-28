@@ -35,7 +35,7 @@ jobs:
       id: check
       run: |
         # Read deploy.host from hugoblox.yaml, default to github-pages
-        HOST=$(grep -A5 "^deploy:" hugoblox.yaml 2>/dev/null | grep "host:" | awk '{print $2}' | tr -d "'\""" || echo "github-pages")
+        HOST=$(grep -A5 "^deploy:" hugoblox.yaml 2>/dev/null | grep "host:" | awk '{print $2}' | tr -d "'\"'" || echo "github-pages")
         HOST=${HOST:-github-pages}
         echo "host=$HOST" >> $GITHUB_OUTPUT
         echo "Deployment target: $HOST"
