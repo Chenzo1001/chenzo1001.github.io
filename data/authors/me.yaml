@@ -13,8 +13,8 @@ status:
 role: "Student"
 bio: "A WHU RS/CS student."
 affiliations:
-  - name: "Meta AI"
-    url: "https://ai.meta.com/"
+  - name: "Wuhan University"
+    url: "https://www.whu.edu.cn"
 links:
   - icon: "hero/at-symbol"
     url: "mailto:chenzo@whu.edu.cn"
