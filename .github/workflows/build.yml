@@ -1,7 +1,7 @@
 name: Build
 
 env:
-  NODE_VERSION: '20'
+  NODE_VERSION: '22'
 
 on:
   # Standalone trigger for PR validation
@@ -59,7 +59,7 @@ jobs:
         # Install Tailwind CLI if package.json exists
         if [ -f "package.json" ]; then
           echo "Installing Tailwind dependencies..."
-          pnpm install --no-frozen-lockfile || npm install
+          pnpm install --frozen-lockfile
         fi
 
     - name: Setup Hugo
@@ -68,24 +68,21 @@ jobs:
         hugo-version: ${{ env.HUGO_VERSION }}
         extended: true
 
-    # Cache dependencies (Go modules, node_modules) - stable, rarely changes
+    # Cache Hugo modules; pnpm must generate fresh executable symlinks on each run.
     - uses: actions/cache@v4
       with:
         path: |
           /tmp/hugo_cache_runner/
-          node_modules/
-          modules/*/node_modules/
-        key: ${{ runner.os }}-hugo-deps-${{ hashFiles('**/go.mod', '**/package-lock.json',
-          '**/pnpm-lock.yaml') }}
+        key: ${{ runner.os }}-hugo-modules-${{ hashFiles('go.mod', 'go.sum', 'hugoblox.yaml') }}
         restore-keys: |
-          ${{ runner.os }}-hugo-deps-
+          ${{ runner.os }}-hugo-modules-
 
     # Cache Hugo resources (processed images, CSS) - invalidates only when assets/config change
     - uses: actions/cache@v4
       with:
         path: resources/
         key: ${{ runner.os }}-hugo-resources-${{ hashFiles('assets/**/*', 'config/**/*',
-          'hugo.yaml', 'package.json') }}
+          'hugo.yaml', 'hugoblox.yaml', 'go.mod', 'package.json', '.npmrc') }}
         restore-keys: |
           ${{ runner.os }}-hugo-resources-
 

@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@10.14.0",
+  "engines": {
+    "node": ">=22"
+  },
   "description": "Academic CV starter template for Hugo Blox with Tailwind CSS v4",
   "scripts": {
     "dev": "hugo server --disableFastRender",

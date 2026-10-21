@@ -52,10 +52,15 @@ jobs:
         with:
           go-version: '1.23'
 
+      - name: Get Hugo Version
+        run: |
+          VERSION=$(grep "hugo_version" hugoblox.yaml | awk '{print $2}' | tr -d "'\"'")
+          echo "HUGO_VERSION=$VERSION" >> $GITHUB_ENV
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
 
       - name: Run Upgrade CLI
